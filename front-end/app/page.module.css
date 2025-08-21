@@ -1,0 +1,16 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  background-color: #f5f5f5; /* light gray background */
+}
+
+.middel-card {
+  background-color: #fff; /* white card */
+  padding: 2rem; /* spacing inside the card */
+  border-radius: 12px; /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  max-width: 400px; /* optional width limit */
+  width: 100%; /* responsive */
+}
